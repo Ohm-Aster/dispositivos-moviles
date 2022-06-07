@@ -1,0 +1,4 @@
+
+agregar la siguiente linea al archivo build.grandle(:app)
+    // FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.1'
