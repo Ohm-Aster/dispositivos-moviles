@@ -1,0 +1,1 @@
+en esta parte del codigo se agregan los metodos editar y eliminar

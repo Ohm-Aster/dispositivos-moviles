@@ -1,0 +1,7 @@
+En esta parte se Agrega el RecyclerView para mostrar los registros de firebase
+
+
+dentro del archivo build.grandle(Module:app) agregar la siguiente linea
+
+// FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.1'

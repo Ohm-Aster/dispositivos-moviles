@@ -1,0 +1,7 @@
+aqui se agrega la funcion buscar.
+con esto se terminan todas las funciones del crud.
+
+Create - FirecrudV2.1
+Read   - FirecrudV2.2
+Update - firecrudV2.3
+Delete - firecrudV2.3

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/esquinas_redondas"
+    android:padding="10sp"
+    app:cardCornerRadius="20dp">
+
+    <ImageView
+        android:id="@+id/btn_editar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_create_24" />
+
+    <ImageView
+        android:id="@+id/btn_elminar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_editar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Nombre"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amaterno" />
+
+    <TextView
+        android:id="@+id/amaterno"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Amaterno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apaterno" />
+
+    <TextView
+        android:id="@+id/apaterno"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Apaterno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
